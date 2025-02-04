@@ -67,6 +67,7 @@ body {
     --dark-font: #21243D;
     --btn-color: #FF6464;
     --link-color: #00A8CC;
+    --blog-bg:#EDF7FA;
 }
 
 .my_text {
@@ -125,4 +126,50 @@ body {
         width: 50%;
         height: auto;
     }
+    .page_title{
+        font-size:18px;
+    }
+    .blog_title{
+        font-size: 16px;
+        
+    }
+    .date_title{
+        font-size: 18px;
+    }
+}
+
+
+.blog{
+    background-color: var(--blog-bg);
+}
+
+
+.page_title{
+    font-size: 22px;
+    font-weight: 700;
+}
+.view{
+    text-decoration: none;
+    color: var(--link-color);
+
+}
+
+.view:hover{
+    color: #11d3ff;
+}
+
+.date_title{
+    font-size: 18px;
+}
+.blog_title{
+    font-size: 26px;
+    color: var(--dark-font);
+}
+
+.my_card{
+    background-color: white;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px 0px #BBE1FA40;
+
 }
