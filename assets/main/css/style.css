@@ -67,7 +67,7 @@ body {
     --dark-font: #21243D;
     --btn-color: #FF6464;
     --link-color: #00A8CC;
-    --blog-bg:#EDF7FA;
+    --blog-bg: #EDF7FA;
 }
 
 .my_text {
@@ -126,50 +126,97 @@ body {
         width: 50%;
         height: auto;
     }
-    .page_title{
-        font-size:18px;
-    }
-    .blog_title{
-        font-size: 16px;
-        
-    }
-    .date_title{
+
+    .page_title {
         font-size: 18px;
     }
+
+    .blog_title {
+        font-size: 16px;
+
+    }
+
+    .date_title {
+        font-size: 18px;
+    }
+    .works_title{
+        font-size: 24px;
+        font-weight: 700;
+    
+    }
+    .year{
+        font-weight:900;
+        font-size:16px;
+        background-color: var(--dark-font);
+        color: #ffff;
+        border-radius:16px;
+        padding:1px 7px;
+    }
+    
+    .tags{
+        color: #8695A4;
+        font-size:16px;
+    
+    }
+    
 }
 
 
-.blog{
+.blog {
     background-color: var(--blog-bg);
 }
 
 
-.page_title{
+.page_title {
     font-size: 22px;
     font-weight: 700;
 }
-.view{
+
+.view {
     text-decoration: none;
     color: var(--link-color);
 
 }
 
-.view:hover{
+.view:hover {
     color: #11d3ff;
 }
 
-.date_title{
+.date_title {
     font-size: 18px;
 }
-.blog_title{
+
+.blog_title {
     font-size: 26px;
     color: var(--dark-font);
+    font-weight: 700;
 }
 
-.my_card{
+.my_card {
     background-color: white;
     padding: 24px;
     border-radius: 4px;
     box-shadow: 0px 4px 10px 0px #BBE1FA40;
+
+}
+
+.works_title{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.year{
+    font-weight:900;
+    font-size:18px;
+    background-color: var(--dark-font);
+    color: #ffff;
+    border-radius:16px;
+    padding:1px 7px;
+}
+
+.tags{
+    color: #8695A4;
+    font-size: 20px;
 
 }
