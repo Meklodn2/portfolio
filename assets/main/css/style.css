@@ -161,6 +161,10 @@ body {
 
     }
 
+    .my_card:hover {
+        box-shadow: 8px 8px;
+        border: 2px dashed black;
+    }
 }
 
 
