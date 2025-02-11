@@ -175,6 +175,10 @@ body {
         font-size: 16px;
 
     }
+    .fwork_title{
+        font-size:30px;
+        font-weight:700;
+    }
 }
 
 
@@ -257,4 +261,8 @@ body {
 .blog_date {
     font-size: 20px;
 
+}
+.fwork_title{
+    font-size:44px;
+    font-weight:900;
 }
